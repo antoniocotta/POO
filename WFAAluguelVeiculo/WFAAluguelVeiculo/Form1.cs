@@ -81,11 +81,13 @@ namespace WFAAluguelVeiculo
         private void rbOnibus_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = WFAAluguelVeiculo.Properties.Resources.onibus;
+            LabelAssentos_Eixos.Text= "Assentos" ;
         }
 
         private void rbCaminhao_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = WFAAluguelVeiculo.Properties.Resources.caminhao;
+            LabelAssentos_Eixos.Text = "Eixos";
         }
 
         private void MensagemTela(Veiculo veiculo)
