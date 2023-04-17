@@ -39,7 +39,7 @@
             this.buttonCadastrar = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.buttonLimpar = new System.Windows.Forms.Button();
-            this.tbPlaca = new System.Windows.Forms.MaskedTextBox();
+            this.mtbPlaca = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,6 +53,8 @@
             this.rbOnibus.TabStop = true;
             this.rbOnibus.Text = "Onibus";
             this.rbOnibus.UseVisualStyleBackColor = true;
+            this.rbOnibus.CheckedChanged += new System.EventHandler(this.rbOnibus_CheckedChanged);
+            this.rbOnibus.Click += new System.EventHandler(this.rbOnibus_Click);
             // 
             // rbCaminhao
             // 
@@ -64,6 +66,7 @@
             this.rbCaminhao.TabStop = true;
             this.rbCaminhao.Text = "Caminhao";
             this.rbCaminhao.UseVisualStyleBackColor = true;
+            this.rbCaminhao.CheckedChanged += new System.EventHandler(this.rbCaminhao_CheckedChanged);
             // 
             // labelPlaca
             // 
@@ -144,21 +147,21 @@
             this.buttonLimpar.Text = "Limpar";
             this.buttonLimpar.UseVisualStyleBackColor = true;
             // 
-            // tbPlaca
+            // mtbPlaca
             // 
-            this.tbPlaca.Location = new System.Drawing.Point(93, 69);
-            this.tbPlaca.Mask = "___-____";
-            this.tbPlaca.Name = "tbPlaca";
-            this.tbPlaca.Size = new System.Drawing.Size(100, 20);
-            this.tbPlaca.TabIndex = 13;
-            this.tbPlaca.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbPlaca_MaskInputRejected);
+            this.mtbPlaca.Location = new System.Drawing.Point(93, 69);
+            this.mtbPlaca.Mask = "___-____";
+            this.mtbPlaca.Name = "mtbPlaca";
+            this.mtbPlaca.Size = new System.Drawing.Size(100, 20);
+            this.mtbPlaca.TabIndex = 13;
+            this.mtbPlaca.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbPlaca_MaskInputRejected);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tbPlaca);
+            this.Controls.Add(this.mtbPlaca);
             this.Controls.Add(this.buttonLimpar);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.buttonCadastrar);
@@ -191,7 +194,7 @@
         private System.Windows.Forms.Button buttonCadastrar;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button buttonLimpar;
-        private System.Windows.Forms.MaskedTextBox tbPlaca;
+        private System.Windows.Forms.MaskedTextBox mtbPlaca;
     }
 }
 
