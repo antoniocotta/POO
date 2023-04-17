@@ -18,6 +18,7 @@ namespace WFAAluguelVeiculo
         }
         //getters and setters
         public string Placa { get => placa; set => placa = value; }
+        public int Ano { get => ano; set => ano = value; }
         //Métodos
 
         public virtual double alugar()

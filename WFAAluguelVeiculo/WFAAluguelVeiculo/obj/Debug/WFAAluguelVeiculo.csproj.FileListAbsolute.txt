@@ -9,3 +9,14 @@ C:\Users\Matthew\Desktop\Engenharia de Computação\FACULDADE UFU\POO\Projetos\W
 C:\Users\Matthew\Desktop\Engenharia de Computação\FACULDADE UFU\POO\Projetos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.csproj.CoreCompileInputs.cache
 C:\Users\Matthew\Desktop\Engenharia de Computação\FACULDADE UFU\POO\Projetos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.exe
 C:\Users\Matthew\Desktop\Engenharia de Computação\FACULDADE UFU\POO\Projetos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.pdb
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\bin\Debug\WFAAluguelVeiculo.exe.config
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\bin\Debug\WFAAluguelVeiculo.exe
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\bin\Debug\WFAAluguelVeiculo.pdb
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.Form1.resources
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.Properties.Resources.resources
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.csproj.GenerateResource.cache
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.exe
+C:\Users\Aluno\source\repos\WFAAluguelVeiculo\WFAAluguelVeiculo\obj\Debug\WFAAluguelVeiculo.pdb

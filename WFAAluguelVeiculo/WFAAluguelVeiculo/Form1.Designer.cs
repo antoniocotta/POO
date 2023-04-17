@@ -102,6 +102,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(255, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(259, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -146,11 +147,12 @@
             this.buttonLimpar.TabIndex = 12;
             this.buttonLimpar.Text = "Limpar";
             this.buttonLimpar.UseVisualStyleBackColor = true;
+            this.buttonLimpar.MouseCaptureChanged += new System.EventHandler(this.buttonLimpar_MouseCaptureChanged);
             // 
             // mtbPlaca
             // 
             this.mtbPlaca.Location = new System.Drawing.Point(93, 69);
-            this.mtbPlaca.Mask = "___-____";
+            this.mtbPlaca.Mask = "000-0000";
             this.mtbPlaca.Name = "mtbPlaca";
             this.mtbPlaca.Size = new System.Drawing.Size(100, 20);
             this.mtbPlaca.TabIndex = 13;
